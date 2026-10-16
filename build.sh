@@ -39,8 +39,4 @@ echo "Finishing..."
 mkdir -p output
 cp ./build/bin/* ./output/
 
-echo "Creating ZIP archive..."
-cd ..
-zip -r output.zip "$SOURCE_DIR/output"
-
-echo "Done! Created output.zip"
+echo "Done!"
